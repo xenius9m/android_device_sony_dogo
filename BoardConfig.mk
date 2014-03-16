@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/dogo/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/dogo/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_dogo_defconfig
+TARGET_KERNEL_CONFIG := mokee_fusion3_dogo_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
