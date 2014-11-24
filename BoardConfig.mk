@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/dogo/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/dogo/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_dogo_defconfig
+TARGET_KERNEL_CONFIG := mokee_fusion3_dogo_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
@@ -37,4 +37,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 
 #Recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
-BOARD_HARDWARE_CLASS += device/sony/dogo/cmhw
+BOARD_HARDWARE_CLASS += device/sony/dogo/mkhw
