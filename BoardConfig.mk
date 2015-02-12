@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The MoKee OpenSource Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,6 +36,3 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 
 BOARD_HARDWARE_CLASS += device/sony/dogo/mkhw
-
-# Audio
-BOARD_HAVE_NEW_QCOM_CSDCLIENT := true
